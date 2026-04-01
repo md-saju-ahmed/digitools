@@ -22,12 +22,12 @@ React-Toastify is used to show notifications for actions such as success message
 
 ## Technologies Used
 
-* React.js
-* Tailwind CSS
-* DaisyUI
-* JavaScript (ES6+)
-* React-Toastify
-* JSON
+- React.js
+- Tailwind CSS
+- DaisyUI
+- JavaScript (ES6+)
+- React-Toastify
+- JSON
 
 ---
 
@@ -74,9 +74,9 @@ digitools/
 ## Installation
 
 ```bash
-git clone https://github.com/md-saju-ahmed/digitools.git
-cd digitools
-npm install
+git clone https://github.com/md-saju-ahmed/digitools.git  
+cd digitools  
+npm install  
 npm run dev
 ```
 
@@ -84,6 +84,9 @@ npm run dev
 
 ## Live Preview
 
+```text
+https://go-digitools.netlify.app/
+```
 
 ---
 
