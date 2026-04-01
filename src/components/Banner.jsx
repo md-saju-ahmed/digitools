@@ -11,7 +11,7 @@ const Banner = () => {
           />
 
           {/* Content */}
-          <div className="w-full lg:max-w-2xl space-y-6 lg:space-y-8 text-center lg:text-left">
+          <div className="w-full min-w-0 lg:max-w-2xl space-y-6 lg:space-y-8 text-center lg:text-left">
             <div className="space-y-4">
               <div className="badge badge-soft badge-primary rounded-full font-medium px-4 py-2 h-auto inline-flex">
                 <img src="/images/pulse.svg" alt="" />
