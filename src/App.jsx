@@ -4,6 +4,7 @@ import Stats from "./components/Stats";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
 import Cta from "./components/Cta";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Steps />
       <Pricing />
       <Cta />
+      <Footer />
     </>
   );
 }
