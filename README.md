@@ -1,52 +1,56 @@
 # DigiTools
 
-DigiTools is a modern web application that brings together premium AI tools, creative assets, templates, and productivity software in a single platform. It helps users save time, stay productive, and easily find useful digital resources.
+DigiTools is a modern web platform that aggregates **AI tools, creative assets, templates, and productivity software** in one place. It is designed to help users save time, stay productive, and quickly discover digital resources they need.
 
 ---
 
-## Features
+## 🌟 Features
 
-### All-in-One Digital Platform
-
-Browse AI tools, design assets, templates, and software from one organized dashboard.
-
-### Responsive Design
-
-Built with Tailwind CSS and DaisyUI to ensure a modern and fully responsive experience on all devices.
-
-### Toast Notifications
-
-React-Toastify is used to show notifications for actions such as success messages, alerts, and product interactions.
+- **All-in-One Dashboard**: Browse AI tools, design assets, templates, and software from a single interface.  
+- **Responsive Design**: Fully responsive on all devices using Tailwind CSS and DaisyUI.  
+- **Notifications**: Interactive toast notifications via React-Toastify for success messages, alerts, and interactions.  
+- **Organized Data**: JSON-driven product listings for easy updates and scalability.  
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
-- React.js
-- Tailwind CSS
-- DaisyUI
-- JavaScript (ES6+)
-- React-Toastify
-- JSON
+- React.js  
+- Tailwind CSS  
+- DaisyUI  
+- JavaScript (ES6+)  
+- React-Toastify  
+- JSON  
 
 ---
 
-## Project Structure
+## 📦 Dependencies
+
+Key dependencies used in this project:
+
+```bash
+react
+react-dom
+tailwindcss
+daisyui
+react-toastify
+vite
+````
+
+---
+
+## 🗂 Project Structure
 
 ```bash
 digitools/
 ├── public/
 │   ├── images/
-│   │   ├── banner.png
-│   │   ├── logo.svg
-│   │   └── ...
 │   ├── favicon.svg
 │   ├── icons.svg
 │   └── products.json
 ├── src/
-│   ├── assets/
-│   │   └── ui/
-│   │       └── DigiTools.fig
+│   ├── assets/ui/
+│   │   └── DigiTools.fig
 │   ├── components/
 │   │   ├── Banner.jsx
 │   │   ├── Cart.jsx
@@ -71,36 +75,34 @@ digitools/
 
 ---
 
-## Installation
+## 💻 Installation
 
 ```bash
-git clone https://github.com/md-saju-ahmed/digitools.git  
-cd digitools  
-npm install  
+git clone https://github.com/md-saju-ahmed/digitools.git
+cd digitools
+npm install
 npm run dev
 ```
 
----
-
-## Live Preview
-
-```text
-https://go-digitools.netlify.app/
-```
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the app locally.
 
 ---
 
-## SVG Icons
+## 🔗 Live Preview
+
+[https://go-digitools.netlify.app](https://go-digitools.netlify.app)
+
+---
+
+## ⚙️ SVG Icons
 
 ```html
 <svg class="facebook"><use xlinkHref="/icons.svg#icon-facebook"></use></svg>
 <svg class="instagram"><use xlinkHref="/icons.svg#icon-instagram"></use></svg>
 <svg class="twitter-x"><use xlinkHref="/icons.svg#icon-twitter-x"></use></svg>
-
 <svg class="user"><use xlinkHref="/icons.svg#icon-user"></use></svg>
 <svg class="package"><use xlinkHref="/icons.svg#icon-package"></use></svg>
 <svg class="rocket"><use xlinkHref="/icons.svg#icon-rocket"></use></svg>
-
 <svg class="menu"><use xlinkHref="/icons.svg#icon-menu"></use></svg>
 <svg class="check"><use xlinkHref="/icons.svg#icon-check"></use></svg>
 <svg class="play"><use xlinkHref="/icons.svg#icon-play"></use></svg>
