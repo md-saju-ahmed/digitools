@@ -90,7 +90,9 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 
 ## 🔗 Live Preview
 
-[https://go-digitools.netlify.app](https://go-digitools.netlify.app)
+```text
+https://go-digitools.netlify.app
+```
 
 ---
 
